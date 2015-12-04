@@ -45,3 +45,24 @@ int main() {
   return 0;
     
 }           
+
+  }
+  else{
+    return "-1";
+  }
+  return "-1"; 
+            
+}
+
+int main() { 
+   
+  // keep this function call here
+  /* Note: In C++ you first have to initialize an array and set 
+     it equal to the stdin to test your code with arrays. 
+     To see how to enter arrays as arguments in C++ scroll down */
+     
+  int A[] = gets(stdin);
+  cout << ArithGeoII(A);
+  return 0;
+    
+}           
