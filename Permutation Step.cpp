@@ -9,10 +9,11 @@ string PermutationStep(int num) {
   number << num;
   string value = number.str();
   
-  for(int i = 1; i < value.length() - 1; i++){
+  for(int i = 1; i < value.length(); i++){
     if(value[i] < value[i+1]){
+      char temp = value[i];
       value[i] = value[i+1];
-      value[i+1] = value[i];
+      value[i+1] = temp;
     }
   }
   
