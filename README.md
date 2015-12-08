@@ -1,2 +1,2 @@
-# Coderbyte-Medium
-All the Medium challenges from Coderbyte in C++
+# Coderbyte-Medium 
+Medium challenges from Coderbyte in C++
